@@ -1,2 +1,38 @@
-<h1>サンプルページ</h1>
-<div>hello</div>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .video {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+  <header style="background-color: #a66bff;">
+    <h1 style="margin-left:10px;color:white;">サンプル動画</h1>
+  </header>
+    <div class="container">
+        <div class="video">
+            <h3>Udemyの編集練習で作成</h3>
+            <!-- <iframe width="120%" height="169" src="https://www.youtube.com/watch?v=zSu3bvtOUFU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px;box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);"></iframe> -->
+            <a href="https://www.youtube.com/watch?v=zSu3bvtOUFU" controls width="300">
+              <img src="img/スクリーンショット 2023-07-30 0.23.48.png" style="color: white;font-weight: bold;text-align: center;height: 169;border-radius: 10px;box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);"></img>
+            </a>
+            <p>これはUdemyの動画編集で練習したサンプル動画です。</p>
+        </div>
+        <!-- <div class="video">
+            <h3>iframeタグでYouTube動画を表示</h3>
+            <iframe width="120%" height="169" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>これはYouTubeの動画です。</p>
+        </div>
+        <div class="video">
+            <h3>videoタグでmovファイルを表示</h3>
+            <iframe width="120%" height="169" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>これはsample.movという動画ファイルです。</p>
+        </div> -->
+    </div>
+</body>
+</html>
